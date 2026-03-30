@@ -1,0 +1,11 @@
+Step 1: Left sidebar → Subnets → Create subnet
+
+Step 2: VPC ID : select "java-k8s-vpc"
+
+Step 3: Subnet name: java-k8s-public-1
+
+Step 4: Availability Zone  : ap-south-2a
+
+Step 5: IPv4 CIDR block    : 10.0.1.0/24
+
+
