@@ -1,0 +1,32 @@
+Step 1: Name   : java-k8s-public-rt
+
+Step 2: VPC    : java-k8s-vpc
+
+Step 3:  → Create route table
+
+              
+
+                             Steps of Add Route Table to IGW
+
+→ Routes tab → Edit routes → Add route
+Destination : 0.0.0.0/0
+Target      : Internet Gateway → java-k8s-igw
+→ Save changes
+
+--- Associate public subnets ---
+→ Subnet associations tab
+→ Edit subnet associations
+Check :
+  * java-k8s-public-1
+  * java-k8s-public-2
+→ Save associations
+
+
+                             Enable Auto-assign Public IP
+
+Subnets → select "java-k8s-public-1"
+→ Actions → Edit subnet settings
+* Enable auto-assign public IPv4 address
+→ Save
+
+Repeat same for "java-k8s-public-2"
