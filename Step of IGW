@@ -1,0 +1,9 @@
+Step 1: Name tag : java-k8s-igw
+
+Step 2: → Create internet gateway
+
+Step 3: → Actions → Attach to VPC
+
+Step 4: → Select "java-k8s-vpc"
+
+Step 5: → Attach internet gateway
